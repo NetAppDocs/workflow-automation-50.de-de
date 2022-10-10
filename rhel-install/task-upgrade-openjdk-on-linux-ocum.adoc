@@ -1,0 +1,62 @@
+---
+permalink: rhel-install/task-upgrade-openjdk-on-linux-ocum.html 
+sidebar: sidebar 
+keywords: oncommand, workflow, automation, upgrade, jre, linux 
+summary: 'Sie können auf eine neuere Version der Java Runtime Environment (JRE) auf dem Linux-Server aktualisieren, auf dem OnCommand Workflow Automation installiert ist, um die Behebung von Sicherheitsschwachstellen zu erhalten.' 
+---
+= Aktualisieren Sie JRE unter Linux
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Sie können auf eine neuere Version der Java Runtime Environment (JRE) auf dem Linux-Server aktualisieren, auf dem OnCommand Workflow Automation installiert ist, um die Behebung von Sicherheitsschwachstellen zu erhalten.
+
+Sie müssen Root-Rechte für das Linux System besitzen, auf dem WFA installiert ist.
+
+
+NOTE: Sie können von einem Update von JRE 1.8 auf ein späteres Update von JRE 1.8 aktualisieren. Sie können kein Upgrade auf eine spätere Hauptversion von JRE wie Java 9 durchführen. Sie können beispielsweise nicht von Java 8 Update 144 (64 Bit) auf Java 8 Update 151 (64 Bit) oder von Java 8 auf Java 9 aktualisieren.
+
+.Schritte
+. Melden Sie sich als Root-Benutzer auf der WFA Host Machine an.
+. Laden Sie die entsprechende Version von Java (64-Bit) auf das Zielsystem herunter.
+. Führen Sie vor dem Aktualisieren der JRE die folgenden Befehle aus, um die Verschlüsselung und Lizenzschlüssel für WFA aufzulisten:
++
+`/opt/netapp/wfa/bin/wfa -K`
+
++
+Dadurch wird der Verschlüsselungsschlüssel zurückgegeben, zum Beispiel:
+
++
+`Key: oidMG6GbIuHjdZG30JgFng==`
+
++
+`/opt/netapp/wfa/bin/wfa --license`
+
++
+Dadurch wird der Lizenzschlüssel zurückgegeben, z. B.:
+
++
+`Key: MS8xLzIwOTkgMTE6NTkgUE0=`
+
++
+Speichern Sie diese Schlüssel, da sie während des JRE-Upgrades für die Schlüsselkonfiguration benötigt werden.
+
+. Stoppen Sie die WFA Services:
++
+`service wfa-server stop`
+
+. Installieren Sie die neueste JRE auf dem System.
+. Um die JRE zu aktualisieren, konfigurieren Sie die in Schritt 3 gespeicherten Schlüssel mithilfe der folgenden Befehle neu:
++
+`/opt/netapp/wfa/bin/wfa --license=MS8xLzIwOTkgMTE6NTkgUE0=`
+
++
+`/opt/netapp/wfa/bin/wfa -K=oidMG6GbIuHjdZG30JgFng==`
+
+. Starten Sie die WFA Services:
++
+`service wfa-server start`
+
+

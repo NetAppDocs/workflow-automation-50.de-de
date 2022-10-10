@@ -1,0 +1,49 @@
+---
+permalink: help/task-configure-a-database-user-by-running-ocsetup-on-windows.html 
+sidebar: sidebar 
+keywords: configure, database, user, running, ocsetup, windows 
+summary: Sie können die ocsetup-Datei auf dem OnCommand Unified Manager-Server ausführen, um den schreibgeschützten Zugriff der OnCommand Unified Manager-Datenbank auf OnCommand Workflow Automation zu konfigurieren. 
+---
+= Konfigurieren Sie einen Datenbankbenutzer, indem Sie ocsetup unter Windows ausführen
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Sie können die ausführen `ocsetup` Datei auf dem OnCommand Unified Manager-Server zum Konfigurieren des schreibgeschützten Zugriffs der OnCommand Unified Manager-Datenbank auf OnCommand Workflow Automation.
+
+.Schritte
+. Laden Sie die herunter `wfa_ocsetup.exe` Datei in ein Verzeichnis im OnCommand Unified Manager-Server von folgendem Speicherort aus:
++
+_Https:_//WFA_Server_IP/download/wfa_ocsetup.exe.
+
++
+`WFA_Server_IP` Ist die IP-Adresse (IPv4 oder IPv6-Adresse) des WFA Servers.
+
++
+Wenn Sie einen nicht-Standardport für WFA angegeben haben, müssen Sie die Portnummer wie folgt angeben:
+
++
+_Https:_//wfa_Server_ip:Port/download/wfa_ocsetup.exe.
+
++
+`port` Ist die TCP-Portnummer, die Sie während der Installation für den WFA-Server verwendet haben.
+
++
+Wenn Sie eine IPv6-Adresse angeben, müssen Sie sie mit eckigen Klammern schließen.
+
+. Doppelklicken Sie auf `wfa_ocsetup.exe` Datei:
+. Lesen Sie die Informationen im Setup-Assistenten und klicken Sie auf *Weiter*.
+. Durchsuchen Sie die JRE-Position, oder geben Sie sie ein, und klicken Sie auf *Weiter*.
+. Geben Sie einen Benutzernamen und ein Kennwort ein, um die Standardanmeldeinformationen zu überschreiben.
++
+Ein neues Datenbank-Benutzerkonto wird mit Zugriff auf die OnCommand Unified Manager Datenbank erstellt.
+
++
+
+NOTE: Wenn Sie kein Benutzerkonto erstellen, werden die Standardanmeldeinformationen verwendet. Aus Sicherheitsgründen müssen Sie ein Benutzerkonto erstellen.
+
+. Klicken Sie auf *Weiter* und sehen Sie sich die Ergebnisse an.
+. Klicken Sie auf *Weiter* und dann auf *Fertig stellen*, um den Assistenten abzuschließen.
+

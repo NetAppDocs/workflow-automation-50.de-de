@@ -1,0 +1,81 @@
+---
+permalink: windows-install/reference-system-requirements-for-oncommand-workflow-automation-windows.html 
+sidebar: sidebar 
+keywords: oncommand workflow automation, system, requirements, install 
+summary: 'Vor der Installation von WFA müssen Sie die Hardware- und Software-Anforderungen des OnCommand Workflow Automation (WFA) kennen.' 
+---
+= Systemanforderungen für die Installation von OnCommand Workflow Automation
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Vor der Installation von WFA müssen Sie die Hardware- und Software-Anforderungen des OnCommand Workflow Automation (WFA) kennen.
+
+
+
+== Hardwareanforderungen für die Installation von WFA
+
+In der folgenden Tabelle sind die Mindestanforderungen an die Hardware und die empfohlenen Hardwarespezifikationen für den WFA Server aufgeführt.
+
+[cols="3*"]
+|===
+| Komponente | Mindestanforderungen | Empfohlene Spezifikationen 
+
+
+ a| 
+CPU
+ a| 
+2.27 GHz oder schneller, 2 Kerne, 64 Bit
+ a| 
+2.27 GHz oder schneller, 2 Kerne, 64 Bit
+
+
+
+ a| 
+RAM
+ a| 
+4 GB
+ a| 
+8 GB
+
+
+
+ a| 
+Freier Speicherplatz
+ a| 
+5 GB
+ a| 
+20 GB
+
+|===
+Wenn Sie WFA auf einer Virtual Machine (VM) installieren, sollten Sie den erforderlichen Arbeitsspeicher und die erforderliche CPU reservieren, damit die VM über ausreichende Ressourcen verfügt. Der Installer überprüft nicht die CPU-Geschwindigkeit.
+
+
+
+== Softwareanforderungen für die Installation von WFA
+
+WFA ist auf einem 64-Bit Windows Betriebssystem ausgeführt und sollte auf dedizierten physischen Computern oder VMs installiert werden. Sie dürfen keine anderen Anwendungen auf dem Server installieren, auf dem WFA ausgeführt wird.
+
+WFA läuft von Microsoft Windows Server 2012 Enterprise Edition zu Microsoft Windows Server 2016 (alle Editionen). Enterprise Edition ist das empfohlene Windows-Betriebssystem.
+
+*Andere erforderliche Software mit Mindestanforderung*
+
+* Einer der folgenden unterstützten Browser:
++
+** Mozilla Firefox
+** Microsoft Internet Explorer
+** Google Chrome
+
+
+* Die neueste Version von Adobe Flash Player für Ihren Browser
+* PowerShell 3.0
+* VMware PowerCLI Version 5
++
+
+NOTE: Die PowerShell Extension für VMware APIs ist nur erforderlich, wenn Sie WFA zur Ausführung von Workflows auf VMware vSphere verwenden.
+
+
+
+Weitere Informationen finden Sie im https://mysupport.netapp.com/matrix["Interoperabilitäts-Matrix-Tool"^].

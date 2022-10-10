@@ -1,0 +1,42 @@
+---
+permalink: help/task-configure-snmp.html 
+sidebar: sidebar 
+keywords: configure, SNMP 
+summary: 'Sie können OnCommand Workflow Automation (WFA) konfigurieren, um SNMP-Traps (Simple Network Management Protocol) zum Status von Workflow-Vorgängen zu senden.' 
+---
+= Konfigurieren Sie SNMP
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Sie können OnCommand Workflow Automation (WFA) konfigurieren, um SNMP-Traps (Simple Network Management Protocol) zum Status von Workflow-Vorgängen zu senden.
+
+WFA `.mib` Datei bietet Informationen zu den vom WFA Server gesendeten Traps. Der `.mib` Die Datei befindet sich im `<WFA_install_location>\wfa\bin\wfa.mib` Verzeichnis auf dem WFA Server.
+
+
+NOTE: Der WFA Server sendet alle Trap-Benachrichtigungen über eine generische Objektkennung (1.3.6.1.4.1.789.1.1.12.0).
+
+Sie können keine SNMP-Community-Strings wie verwenden `community_string@SNMP_host` Für SNMP-Konfiguration.
+
+.Schritte
+. Melden Sie sich bei WFA über einen Webbrowser als Admin-Benutzer an und greifen Sie dann auf den WFA Server zu.
+. Klicken Sie auf *Einstellungen* und klicken Sie unter *Setup* auf *SNMP*.
+. Aktivieren Sie das Kontrollkästchen *SNMP aktivieren*.
+. Geben Sie eine IPv4- oder IPv6-Adresse oder den Hostnamen und die Portnummer des Management-Hosts ein.
++
+WFA sendet SNMP-Traps an die angegebene Portnummer. Die Standardanschlussnummer ist 162.
+
+. Wählen Sie im Abschnitt *Benachrichtigen bei* ein oder mehrere der folgenden Kontrollkästchen aus:
++
+** Workflow-Ausführung gestartet
+** Workflow-Ausführung erfolgreich abgeschlossen
+** Ausführung des Workflows fehlgeschlagen/teilweise erfolgreich
+** Workflow-Ausführung wartet auf Genehmigung
+** Erfassungsfehler
+
+
+. Klicken Sie auf *Testbenachrichtigung senden*, um die Einstellungen zu überprüfen.
+. Klicken Sie Auf *Speichern*.
+

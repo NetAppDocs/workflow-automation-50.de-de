@@ -1,0 +1,21 @@
+---
+permalink: rhel-install/task-create-a-support-case-for-wfa.html 
+sidebar: sidebar 
+keywords: create, support, case, oncommand workflow automation 
+summary: 'Sie können Support-Cases für OnCommand Workflow Automation (WFA) Probleme erstellen, für die beim technischen Support Unterstützung erforderlich ist. Sie müssen die technische Triage-Vorlage zur Erstellung eines Support-Cases verwenden.' 
+---
+= Erstellen eines Support Case für OnCommand Workflow Automation
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Sie können Support-Cases für OnCommand Workflow Automation (WFA) Probleme erstellen, für die beim technischen Support Unterstützung erforderlich ist. Sie müssen die technische Triage-Vorlage zur Erstellung eines Support-Cases verwenden.
+
+Die technische Triage-Vorlage für WFA enthält alle erforderlichen Informationen für die Erstellung eines Support-Cases. Sie müssen die Fragen und Informationen in der technischen Triage-Vorlage verwenden, um Ihr Problem zu konstruieren. So wird die Zeit für die Behebung Ihres Cases verkürzt.
+
+.Schritte
+. Zugriff auf die technische Triage-Vorlage von WFA
+. Verwenden Sie die Vorlage, um Ihren Case zu erstellen und an den technischen Support zu senden.
+

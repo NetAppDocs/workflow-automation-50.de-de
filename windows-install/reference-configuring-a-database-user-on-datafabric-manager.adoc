@@ -1,0 +1,14 @@
+---
+permalink: windows-install/reference-configuring-a-database-user-on-datafabric-manager.html 
+sidebar: sidebar 
+keywords: configuring, database, user, active iq, data, center, manager 
+summary: Sie müssen einen Datenbankbenutzer unter Active IQ Datacenter Manager Versionen vor 6.0 erstellen, um den schreibgeschützten Zugriff der Active IQ Datacenter Manager-Datenbank auf OnCommand Workflow Automation zu konfigurieren. 
+---
+= Konfigurieren eines Datenbankbenutzers in Active IQ Datacenter Manager
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Sie müssen einen Datenbankbenutzer unter Active IQ Datacenter Manager Versionen vor 6.0 erstellen, um den schreibgeschützten Zugriff der Active IQ Datacenter Manager-Datenbank auf OnCommand Workflow Automation zu konfigurieren.
