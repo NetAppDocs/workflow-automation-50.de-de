@@ -13,6 +13,7 @@ summary: 'Sie können mithilfe der REST-APIs ein vollständiges Backup der WFA D
 [role="lead"]
 Sie können mithilfe der REST-APIs ein vollständiges Backup der WFA Datenbank (OnCommand Workflow Automation) durchführen. In einem vollständigen Backup werden die WFA Datenbank, die WFA Konfiguration und der Schlüssel gesichert.
 
+.Was Sie benötigen
 Sie müssen über Administrator- oder Architekturdaten verfügen.
 
 .Schritt

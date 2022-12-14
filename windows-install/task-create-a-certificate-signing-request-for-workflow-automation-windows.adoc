@@ -13,11 +13,12 @@ summary: 'Sie können in Windows eine Zertifikatsignierungsanforderung (CSR) ers
 [role="lead"]
 Sie können in Windows eine Zertifikatsignierungsanforderung (CSR) erstellen, sodass Sie das SSL-Zertifikat verwenden können, das von einer Zertifizierungsstelle (CA) anstelle des Standard-SSL-Zertifikats für Workflow Automation (WFA) signiert ist.
 
-.Was Sie und#8217;ll benötigen
+.Was Sie benötigen
 * Sie müssen auf dem WFA Server über Windows-Administratorrechte verfügen.
 * Sie müssen das von WFA bereitgestellte Standard-SSL-Zertifikat ersetzt haben.
 
 
+.Über diese Aufgabe
 In diesem Verfahren wird der WFA Standardinstallationspfad verwendet. Wenn Sie während der Installation den Standardpfad geändert haben, müssen Sie den benutzerdefinierten WFA Installationspfad verwenden.
 
 .Schritte

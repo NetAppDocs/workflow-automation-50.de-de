@@ -13,6 +13,7 @@ summary: 'Sie können Support-Cases für OnCommand Workflow Automation (WFA) Pro
 [role="lead"]
 Sie können Support-Cases für OnCommand Workflow Automation (WFA) Probleme erstellen, für die beim technischen Support Unterstützung erforderlich ist. Sie müssen die technische Triage-Vorlage zur Erstellung eines Support-Cases verwenden.
 
+.Über diese Aufgabe
 Die technische Triage-Vorlage für WFA enthält alle erforderlichen Informationen für die Erstellung eines Support-Cases. Sie müssen die Fragen und Informationen in der technischen Triage-Vorlage verwenden, um Ihr Problem zu konstruieren. So wird die Zeit für die Behebung Ihres Cases verkürzt.
 
 .Schritte

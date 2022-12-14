@@ -13,7 +13,7 @@ summary: 'Sie können die OnCommand Workflow Automation (WFA) Datenbank, die Sie
 [role="lead"]
 Sie können die OnCommand Workflow Automation (WFA) Datenbank, die Sie zuvor mit Hilfe der Befehlszeilenschnittstelle (CLI) gesichert haben, regelmäßig wiederherstellen. In einer normalen Wiederherstellung ist es nur möglich, die WFA Datenbank wiederherzustellen.
 
-.Was Sie und#8217;ll benötigen
+.Was Sie benötigen
 * Sie müssen ein Backup der WFA Datenbank erstellt haben.
 * Sie müssen über Administrator- oder Architekturdaten verfügen.
 

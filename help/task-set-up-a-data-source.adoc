@@ -13,7 +13,7 @@ summary: 'Sie müssen eine Verbindung mit einer Datenquelle in OnCommand Workflo
 [role="lead"]
 Sie müssen eine Verbindung mit einer Datenquelle in OnCommand Workflow Automation (WFA) einrichten, um Daten aus der Datenquelle zu erhalten.
 
-.Was Sie und#8217;ll benötigen
+.Was Sie benötigen
 * Bei älteren Versionen als 6.0 von OnCommand Unified Manager müssen Sie die neueste Version des ocsetup-Tools auf dem Unified Manager-Server ausführen, um den schreibgeschützten Remote-Zugriff auf die Datenbank zu aktivieren und zu konfigurieren.
 * Für OnCommand Unified Manager6.0 und höher müssen Sie ein Datenbankbenutzerkonto auf dem Unified Manager Server erstellt haben.
 +
@@ -59,6 +59,7 @@ Die Standard-TCP-Portnummer lautet 443. Weitere Informationen finden Sie in der 
 
 
 
+.Über diese Aufgabe
 Mit diesem Verfahren können Sie WFA mehrere Unified Manager-Serverdatenquellen hinzufügen. Sie dürfen dieses Verfahren jedoch nicht verwenden, wenn Sie Unified Manager Server 6.3 und höher mit WFA koppeln und die Schutzfunktion in Unified Manager Server verwenden möchten.
 
 Weitere Informationen zum Pairing von WFA mit dem Unified Manager-Server 6.x finden Sie in der _OnCommand Unified Manager Online-Hilfe_.

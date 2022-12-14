@@ -13,11 +13,12 @@ summary: 'Standardmäßig ist der Zugriff auf die OnCommand Workflow Automation 
 [role="lead"]
 Standardmäßig ist der Zugriff auf die OnCommand Workflow Automation (WFA) Datenbank nur von Clients möglich, die auf dem WFA Host-System ausgeführt werden. Sie können die Standardeinstellungen ändern, wenn Sie von einem Remote-System aus auf die WFA Datenbank zugreifen möchten.
 
-.Was Sie und#8217;ll benötigen
+.Was Sie benötigen
 * Sie müssen sich als Admin-Benutzer beim WFA Host-System angemeldet haben.
 * Falls auf dem WFA Host-System eine Firewall installiert ist, müssen Sie Ihre Firewall-Einstellungen so konfiguriert haben, dass der Zugriff über das Remote-System möglich ist.
 
 
+.Über diese Aufgabe
 In diesem Verfahren wird der WFA Standardinstallationspfad verwendet. Wenn Sie während der Installation den Standardspeicherort geändert haben, müssen Sie auch den benutzerdefinierten WFA Installationspfad verwenden.
 
 . Öffnen Sie Windows Explorer, und navigieren Sie zum folgenden Verzeichnis: `WFA_install_location\WFA\bin`

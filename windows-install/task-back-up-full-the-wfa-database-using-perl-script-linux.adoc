@@ -13,8 +13,10 @@ summary: 'Sie können ein vollständiges Backup der WFA-Datenbank (OnCommand Wor
 [role="lead"]
 Sie können ein vollständiges Backup der WFA-Datenbank (OnCommand Workflow Automation) über die WFA-Befehlszeilenschnittstelle (CLI) durchführen. In einem vollständigen Backup werden die WFA Datenbank, die WFA Konfiguration und der Schlüssel gesichert.
 
+.Was Sie benötigen
 Sie müssen über Anmeldedaten für Admin-Benutzer oder Systemarchitekten verfügen.
 
+.Über diese Aufgabe
 In einer Hochverfügbarkeitsumgebung sollten geplante Backups mithilfe VON REST APIs erstellt werden. Sie können keine Backups über die CLI erstellen, wenn WFA sich im Failover-Modus befindet.
 
 Weitere Informationen finden Sie in DER REST-Dokumentation.

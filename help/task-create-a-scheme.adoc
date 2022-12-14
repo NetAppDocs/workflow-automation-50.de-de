@@ -13,11 +13,12 @@ summary: Sie müssen ein Schema erstellen, wenn Daten von einem neuen Quelltyp z
 [role="lead"]
 Sie müssen ein Schema erstellen, wenn Daten von einem neuen Quelltyp zwischengespeichert werden müssen oder wenn Daten von Workflows direkt in der Datenbank gespeichert werden müssen.
 
-.Was Sie und#8217;ll benötigen
+.Was Sie benötigen
 * Sie müssen WFA installiert haben.
 * Sie müssen über Administratorrechte oder Anmeldedaten für den Systemarchitekten für WFA verfügen.
 
 
+.Über diese Aufgabe
 WFA unterstützt standardmäßig zwei Arten von Schemata: Datenquellenerfassung und andere.
 
 * Datenerfassungsschemata: Die Tabellen in diesen Schemata werden von Datenquellen zwischengespeichert, die für die Erfassung von Daten aus Remote-Systemen definiert sind.

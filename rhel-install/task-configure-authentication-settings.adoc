@@ -13,8 +13,10 @@ summary: 'Sie können OnCommand Workflow Automation (WFA) konfigurieren, um eine
 [role="lead"]
 Sie können OnCommand Workflow Automation (WFA) konfigurieren, um einen Microsoft Active Directory (AD) LDAP-Server (Lightweight Directory Access Protocol) zur Authentifizierung und Autorisierung zu verwenden.
 
+.Was Sie benötigen
 Sie müssen einen Microsoft AD LDAP-Server in Ihrer Umgebung konfiguriert haben.
 
+.Über diese Aufgabe
 Für WFA wird nur die Microsoft AD-LDAP-Authentifizierung unterstützt. Sie können keine anderen LDAP-Authentifizierungsmethoden verwenden, einschließlich Microsoft AD Lightweight Directory Services (AD LDS) oder Microsoft Global Catalog.
 
 

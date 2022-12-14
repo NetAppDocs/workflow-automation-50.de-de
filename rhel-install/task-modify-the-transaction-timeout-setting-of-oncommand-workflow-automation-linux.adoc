@@ -13,8 +13,10 @@ summary: 'Die Transaktionszeiten der OnCommand Workflow Automation (WFA) Datenba
 [role="lead"]
 Die Transaktionszeiten der OnCommand Workflow Automation (WFA) Datenbank liegen standardmäßig in 300 Sekunden vor. Sie können die Standard-Zeitdauer beim Wiederherstellen einer großen WFA Datenbank aus einem Backup erhöhen, um einen potenziellen Ausfall der Datenbankwiederherstellung zu vermeiden.
 
+.Was Sie benötigen
 Sie müssen sich als Root-Benutzer beim WFA Host-System angemeldet haben.
 
+.Über diese Aufgabe
 In diesem Verfahren wird der WFA Standardinstallationspfad verwendet. Wenn Sie während der Installation den Standardspeicherort geändert haben, müssen Sie den geänderten WFA Installationspfad verwenden.
 
 .Schritte

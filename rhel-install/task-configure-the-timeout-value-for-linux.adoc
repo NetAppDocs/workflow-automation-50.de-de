@@ -13,6 +13,7 @@ summary: 'Sie können den Zeitüberschreitungswert für die Web-GUI (WFA) konfig
 [role="lead"]
 Sie können den Zeitüberschreitungswert für die Web-GUI (WFA) konfigurieren, anstatt den Standardwert für eine Zeitüberschreitung von 180 Sekunden zu verwenden.
 
+.Über diese Aufgabe
 Der von Ihnen eingestellte Timeout-Wert ist ein absolutes Timeout und nicht ein Timeout im Zusammenhang mit Inaktivität. Wenn Sie diesen Wert z. B. auf 30 Minuten setzen, werden Sie nach 30 Minuten abgemeldet, auch wenn Sie am Ende dieser Zeit aktiv sind. Sie können den Zeitüberschreitungswert nicht über die WFA Web GUI einstellen.
 
 .Schritte

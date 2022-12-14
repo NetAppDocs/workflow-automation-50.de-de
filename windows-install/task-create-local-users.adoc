@@ -13,8 +13,10 @@ summary: 'Mit OnCommand Workflow Automation (WFA) können Sie lokale WFA Benutze
 [role="lead"]
 Mit OnCommand Workflow Automation (WFA) können Sie lokale WFA Benutzer mit spezifischen Berechtigungen für verschiedene Rollen wie Gast, Operator, Genehmiger, Architekt, Admin und Backup.
 
+.Was Sie benötigen
 Sie müssen WFA installiert und als Administrator angemeldet haben.
 
+.Über diese Aufgabe
 WFA ermöglicht Ihnen das Erstellen von Benutzern für die folgenden Rollen:
 
 * *Gast*

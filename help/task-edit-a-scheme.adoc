@@ -13,11 +13,12 @@ summary: Sie können den Anzeigenamen, die Beschreibung und die Entity-Version e
 [role="lead"]
 Sie können den Anzeigenamen, die Beschreibung und die Entity-Version eines von Ihnen erstellten Schemas bearbeiten.
 
-.Was Sie und#8217;ll benötigen
+.Was Sie benötigen
 * Sie müssen WFA installiert haben.
 * Sie müssen über Administratorrechte oder Anmeldedaten für den Systemarchitekten für WFA verfügen.
 
 
+.Über diese Aufgabe
 Sie können vordefinierte Schemata nicht ändern.
 
 .Schritte

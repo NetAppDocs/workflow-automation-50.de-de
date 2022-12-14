@@ -13,7 +13,7 @@ summary: 'Sie können OnCommand Workflow Automation (WFA) installieren, um Stora
 [role="lead"]
 Sie können OnCommand Workflow Automation (WFA) installieren, um Storage-Workflows zu erstellen und anzupassen und um die in Ihrer Umgebung ausgeführten Storage-Aufgaben zu automatisieren.
 
-.Was Sie und#8217;ll benötigen
+.Was Sie benötigen
 * Sie müssen die Installationsvoraussetzungen überprüft haben.
 +
 xref:reference-prerequisites-for-installing-workflow-automation.adoc[Voraussetzungen für die Installation von Workflow Automation]

@@ -13,11 +13,12 @@ summary: 'Sie können eine Zertifikatsignierungsanforderung (CSR) in Linux erste
 [role="lead"]
 Sie können eine Zertifikatsignierungsanforderung (CSR) in Linux erstellen, sodass Sie das SSL-Zertifikat, das von einer Zertifizierungsstelle (CA) signiert ist, anstelle des Standard-SSL-Zertifikats für Workflow Automation (WFA) verwenden können.
 
-.Was Sie und#8217;ll benötigen
+.Was Sie benötigen
 * Sie müssen Root-Rechte für das Linux-System besitzen, auf dem WFA installiert ist.
 * Sie müssen das von WFA bereitgestellte Standard-SSL-Zertifikat ersetzt haben.
 
 
+.Über diese Aufgabe
 In diesem Verfahren wird der WFA Standardinstallationspfad verwendet. Wenn Sie während der Installation den Standardpfad geändert haben, müssen Sie den benutzerdefinierten WFA Installationspfad verwenden.
 
 .Schritte

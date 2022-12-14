@@ -13,11 +13,13 @@ summary: Sie können auf eine neuere Version von MySQL auf dem Linux-Server aktu
 [role="lead"]
 Sie können auf eine neuere Version von MySQL auf dem Linux-Server aktualisieren, auf dem OnCommand Workflow Automation installiert ist, um die Behebung von Sicherheitslücken zu erhalten.
 
+.Was Sie benötigen
 Sie müssen Root-Rechte für das Linux System besitzen, auf dem WFA installiert ist.
 
 
 NOTE: Bevor Sie WFA 4.2 neu installieren, müssen Sie das MySQL-Datenverzeichnis löschen, wenn Sie MySQL deinstalliert haben.
 
+.Über diese Aufgabe
 Sie können nur ein Upgrade auf kleinere Updates von MySQL 5.7 durchführen, zum Beispiel 5.7.1 bis 5.7.2 . Sie können kein Upgrade auf die Hauptversionen von MySQL durchführen, z. B. Version 5.8.
 
 .Schritte

@@ -13,6 +13,7 @@ summary: 'Standardmäßig führt OnCommand Workflow Automation (WFA) die Workflo
 [role="lead"]
 Standardmäßig führt OnCommand Workflow Automation (WFA) die Workflows als Administrator des Host-Systems aus. Sie können die WFA Rechte auf dem Hostsystem einschränken, indem Sie die Standardeinstellungen ändern.
 
+.Was Sie benötigen
 Sie müssen als Administrator beim WFA Host-System angemeldet sein.
 
 .Schritte

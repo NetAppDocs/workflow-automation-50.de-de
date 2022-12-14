@@ -13,8 +13,10 @@ summary: 'Sie können ein Upgrade von OnCommand Workflow Automation (WFA) 3.1 od
 [role="lead"]
 Sie können ein Upgrade von OnCommand Workflow Automation (WFA) 3.1 oder höheren Versionen auf die aktuellen Versionen von WFA durchführen, um die neuen Funktionen und Verbesserungen zu nutzen.
 
+.Was Sie benötigen
 Sie müssen das heruntergeladen haben `.exe` Binäre Datei von der NetApp Support Site an den WFA Host Machine.
 
+.Über diese Aufgabe
 Sie können MySQL beim Upgrade von älteren WFA Versionen nicht eigenständig installieren. Sie können MySQL jedoch selbst installieren:
 
 * Während einer Neuinstallation von WFA 4.2 und höher oder

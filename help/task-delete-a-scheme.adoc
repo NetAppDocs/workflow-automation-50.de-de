@@ -13,11 +13,12 @@ summary: 'Sie können ein von Ihnen erstelltes Schema aus OnCommand Workflow Aut
 [role="lead"]
 Sie können ein von Ihnen erstelltes Schema aus OnCommand Workflow Automation (WFA) löschen, wenn Sie es nicht mehr benötigen.
 
-.Was Sie und#8217;ll benötigen
+.Was Sie benötigen
 * Sie müssen WFA installiert haben.
 * Sie müssen über Administratorrechte oder Anmeldedaten für den Systemarchitekten für WFA verfügen.
 
 
+.Über diese Aufgabe
 Sie können vordefinierte Schemata nicht löschen.
 
 .Schritte

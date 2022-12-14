@@ -13,7 +13,7 @@ summary: 'Sie können die zuvor gesicherte OnCommand Workflow Automation-Datenba
 [role="lead"]
 Sie können die zuvor gesicherte OnCommand Workflow Automation-Datenbank (WFA) wiederherstellen.
 
-.Was Sie und#8217;ll benötigen
+.Was Sie benötigen
 * Sie müssen ein Backup der WFA Datenbank erstellt haben.
 * Sie müssen über Administrator- oder Architekturdaten verfügen.
 

@@ -13,8 +13,10 @@ summary: 'Sie können eine Backup- und Restore-Erstellung für die OnCommand Wor
 [role="lead"]
 Sie können eine Backup- und Restore-Erstellung für die OnCommand Workflow Automation (WFA) Datenbank und unterstützte Konfigurationen erstellen, damit Sie die Daten bei einem Ausfall wiederherstellen können. Zu den unterstützten Konfigurationen gehören Datenzugriff, HTTP Timeout und SSL-Zertifikate.
 
+.Was Sie benötigen
 Sie müssen über Administratorrechte oder Anmeldedaten zum Erstellen verfügen.
 
+.Über diese Aufgabe
 Sie müssen das Backup an einem sicheren Ort erstellen, da die Wiederherstellung des Backups Zugriff auf alle Storage-Systeme bietet, auf die WFA zugegriffen hat.
 
 [NOTE]

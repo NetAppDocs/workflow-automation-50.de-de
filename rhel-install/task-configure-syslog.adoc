@@ -13,6 +13,7 @@ summary: 'Sie können OnCommand Workflow Automation (WFA) konfigurieren, um Prot
 [role="lead"]
 Sie können OnCommand Workflow Automation (WFA) konfigurieren, um Protokolldaten für Zwecke wie Ereignisprotokollierung und die Analyse von Protokollinformationen an einen bestimmten Syslog-Server zu senden.
 
+.Was Sie benötigen
 Sie müssen den Syslog-Server konfiguriert haben, um Daten vom WFA-Server zu akzeptieren.
 
 .Schritte

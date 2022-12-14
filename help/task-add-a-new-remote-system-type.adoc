@@ -13,7 +13,7 @@ summary: 'Sie können OnCommand Workflow Automation (WFA) einen neuen Remote-Sys
 [role="lead"]
 Sie können OnCommand Workflow Automation (WFA) einen neuen Remote-Systemtyp hinzufügen, wenn ein vordefinierter Systemtyp Ihre Anforderungen nicht erfüllt oder die Konfiguration eines vordefinierten Systemtyps ändern möchte.
 
-.Was Sie und#8217;ll benötigen
+.Was Sie benötigen
 * Sie müssen WFA installiert haben.
 * Sie müssen über Administratorrechte oder Anmeldedaten für den Systemarchitekten für WFA verfügen.
 

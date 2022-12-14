@@ -13,8 +13,10 @@ summary: 'Sie können ein regelmäßiges Backup der OnCommand Workflow Automatio
 [role="lead"]
 Sie können ein regelmäßiges Backup der OnCommand Workflow Automation (WFA) Datenbank mithilfe der WFA Befehlszeilenschnittstelle (CLI) durchführen. In einem regelmäßigen Backup wird nur die WFA Datenbank gesichert.
 
+.Was Sie benötigen
 Sie müssen über Anmeldedaten für Admin-Benutzer, Anmeldeinformationen für Architektur oder Sicherungsbenutzer verfügen.
 
+.Über diese Aufgabe
 In einer Hochverfügbarkeitsumgebung sollten geplante Backups mithilfe VON REST APIs erstellt werden. Sie können keine Backups über die CLI erstellen, wenn WFA sich im Failover-Modus befindet.
 
 Weitere Informationen finden Sie in DER REST-Dokumentation.

@@ -13,8 +13,10 @@ summary: 'Wenn Sie häufig ein Backup der OnCommand Workflow Automation (WFA) Da
 [role="lead"]
 Wenn Sie häufig ein Backup der OnCommand Workflow Automation (WFA) Datenbank erstellen möchten, können Sie das PowerShell Skript verwenden, das im WFA Installationspaket enthalten ist.
 
+.Was Sie benötigen
 Sie müssen über Anmeldedaten für Admin-Benutzer, Anmeldeinformationen für Architektur oder Sicherungsbenutzer verfügen.
 
+.Über diese Aufgabe
 Weitere Informationen finden Sie in DER REST-Dokumentation.
 
 . Öffnen Sie Windows PowerShell als Admin-Benutzer und sichern Sie anschließend die WFA Datenbank:

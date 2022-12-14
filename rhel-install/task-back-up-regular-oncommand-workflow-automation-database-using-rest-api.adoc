@@ -13,6 +13,7 @@ summary: 'Sie können mithilfe der REST-APIs ein regelmäßiges Backup der WFA D
 [role="lead"]
 Sie können mithilfe der REST-APIs ein regelmäßiges Backup der WFA Datenbank (OnCommand Workflow Automation) durchführen. In einem regelmäßigen Backup wird nur die WFA Datenbank gesichert.
 
+.Was Sie benötigen
 Sie benötigen Admin-, Architect- oder Backup-Anmeldedaten.
 
 .Schritt

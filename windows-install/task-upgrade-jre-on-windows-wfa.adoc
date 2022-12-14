@@ -13,8 +13,10 @@ summary: 'Sie können neue Versionen der Java Runtime Environment (JRE) auf OnCo
 [role="lead"]
 Sie können neue Versionen der Java Runtime Environment (JRE) auf OnCommand Workflow Automation (WFA) auf dem Windows Server aktualisieren. Sie können ein Upgrade auf eine neuere Version von JRE durchführen, um die Behebung von Sicherheitsschwachstellen auf dem Windows-Server zu erhalten.
 
+.Was Sie benötigen
 Sie müssen auf dem WFA Server über Windows-Administratorrechte verfügen.
 
+.Über diese Aufgabe
 Sie können JRE-Versionen in Versionsfamilien aktualisieren. Sie können beispielsweise von Java 8 Update 144 (64 Bit) auf Java 8 Update 151 (64 Bit) aktualisieren, aber Sie können nicht direkt von Java 8 auf Java 9 aktualisieren.
 
 .Schritte

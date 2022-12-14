@@ -13,6 +13,7 @@ summary: 'Sie können auf eine neuere Version der Java Runtime Environment (JRE)
 [role="lead"]
 Sie können auf eine neuere Version der Java Runtime Environment (JRE) auf dem Linux-Server aktualisieren, auf dem OnCommand Workflow Automation installiert ist, um die Behebung von Sicherheitsschwachstellen zu erhalten.
 
+.Was Sie benötigen
 Sie müssen Root-Rechte für das Linux System besitzen, auf dem WFA installiert ist.
 
 

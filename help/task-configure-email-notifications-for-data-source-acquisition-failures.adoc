@@ -13,6 +13,7 @@ summary: 'Sie können festlegen, welche Benachrichtigungen in OnCommand Workflow
 [role="lead"]
 Sie können festlegen, welche Benachrichtigungen in OnCommand Workflow Automation (WFA) generiert werden, wenn eine Datenquellenerfassung fehlschlägt. Sie können den Schwellenwert- und Intervallfaktor für die Benachrichtigungen konfigurieren.
 
+.Was Sie benötigen
 Sie müssen E-Mail-Benachrichtigungen in OnCommand Workflow Automation (WFA) konfiguriert haben.
 
 .Schritte

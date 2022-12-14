@@ -13,6 +13,7 @@ summary: Das Perl-Paket, das auf Ihrem System installiert ist, wird von OnComman
 [role="lead"]
 Das Perl-Paket, das auf Ihrem System installiert ist, wird von OnCommand Workflow Automation verwendet. Wenn Sie eine andere Perl-Verteilung verwenden möchten, können Sie Ihre bevorzugte Perl-Distribution für die Verwendung mit WFA konfigurieren.
 
+.Was Sie benötigen
 Sie müssen die erforderliche Perl Verteilung auf dem WFA Server installiert haben.
 
 .Schritte

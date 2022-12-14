@@ -13,6 +13,7 @@ summary: 'Sie können über einen Webbrowser von jedem System mit Zugriff auf de
 [role="lead"]
 Sie können über einen Webbrowser von jedem System mit Zugriff auf den WFA Server auf OnCommand Workflow Automation (WFA) zugreifen.
 
+.Was Sie benötigen
 Sie müssen Adobe Flash Player für Ihren Webbrowser installiert haben.
 
 .Schritte

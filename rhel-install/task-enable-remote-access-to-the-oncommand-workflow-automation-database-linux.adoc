@@ -13,11 +13,12 @@ summary: 'Standardmäßig ist der Zugriff auf die OnCommand Workflow Automation 
 [role="lead"]
 Standardmäßig ist der Zugriff auf die OnCommand Workflow Automation (WFA) Datenbank nur durch Clients möglich, die auf dem WFA Host-System ausgeführt werden. Sie können die Standardeinstellungen ändern, wenn Sie den Zugriff auf die WFA Datenbank von einem Remote-System aus aktivieren möchten.
 
-.Was Sie und#8217;ll benötigen
+.Was Sie benötigen
 * Sie müssen sich als Root-Benutzer beim WFA Host-System angemeldet haben.
 * Falls eine Firewall auf dem WFA Host-System installiert ist, müssen Sie Ihre Firewall-Einstellungen so konfiguriert haben, dass der Zugriff auf den MySQL Port (3306) vom Remote-System aus möglich ist.
 
 
+.Über diese Aufgabe
 In diesem Verfahren wird der WFA Standardinstallationspfad verwendet. Wenn Sie während der Installation den Standardspeicherort geändert haben, müssen Sie den geänderten WFA Installationspfad verwenden.
 
 .Schritte

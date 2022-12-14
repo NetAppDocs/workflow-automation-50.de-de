@@ -13,6 +13,7 @@ summary: 'Zudem lässt sich OnCommand Workflow Automation (WFA) konfigurieren, u
 [role="lead"]
 Zudem können Sie OnCommand Workflow Automation (WFA) so konfigurieren, dass Sie E-Mail-Benachrichtigungen zu Workflow-Vorgängen senden – beispielsweise gestartete Workflows oder fehlgeschlagener Workflow.
 
+.Was Sie benötigen
 Sie müssen einen Mail-Host in Ihrer Umgebung konfiguriert haben.
 
 .Schritte

@@ -13,8 +13,10 @@ summary: 'Sie können das Standard-SSL-Zertifikat der Workflow Automation (WFA) 
 [role="lead"]
 Sie können das Standard-SSL-Zertifikat der Workflow Automation (WFA) ersetzen, wenn das Zertifikat abgelaufen ist oder Sie die Gültigkeitsdauer des Zertifikats erhöhen möchten.
 
+.Was Sie benötigen
 Sie müssen Root-Rechte für das Linux-System besitzen, auf dem WFA installiert ist.
 
+.Über diese Aufgabe
 In diesem Verfahren wird der WFA Standardinstallationspfad verwendet. Wenn Sie während der Installation den Standardspeicherort geändert haben, müssen Sie auch den benutzerdefinierten WFA Installationspfad verwenden.
 
 .Schritte
